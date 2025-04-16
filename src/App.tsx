@@ -21,7 +21,7 @@ import ResearchCluster from './pages/ResearchCluster';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/deploy-mu-web">
       <div className="App">
         <NavigationBar />
         <Routes>
