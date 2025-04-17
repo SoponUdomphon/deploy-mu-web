@@ -9,6 +9,11 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-background">
+          <img 
+            src="/sorces/hero_section.jpg" 
+            alt=""
+            className="hero-image"
+          />
         </div>
         <div className="hero-overlay"></div>
         <Container className="h-100 d-flex align-items-center">
