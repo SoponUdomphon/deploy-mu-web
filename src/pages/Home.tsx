@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <div className="hero-background">
           <img 
             src="/sorces/hero_section.jpg" 
-            alt="Polymer Science Background" 
+            alt=""
             className="hero-image"
           />
         </div>
