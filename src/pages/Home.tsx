@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <section className="hero-section">
         <div className="hero-background">
           <img 
-            src="/sorces/hero_section.jpg" 
+            src={process.env.PUBLIC_URL + '/sorces/hero_section.jpg'}
             alt=""
             className="hero-image"
           />
